@@ -1,6 +1,8 @@
 # TaskTracker
 This is a simple Front-End CRUD application built using Angular.
 
+## Demo GIF
+![ezgif-2-5c73fdcd1229](https://user-images.githubusercontent.com/56826029/119226384-6b671080-bb26-11eb-8d9f-114e1fe08b7c.gif)
 ## Running TaskTracker on your computer
 * If you wish to see the Front-end and animations alone , visit [TaskTracker](https://vishal-nagarajan.github.io/TaskTracker/).
 * If you wish to see the Front-end communicating with a test API follow the bellow steps.
@@ -9,5 +11,9 @@ This is a simple Front-End CRUD application built using Angular.
   * Run the server locally on port 5000 using the following command.
   * `json-server --watch db.json --port 5000`
   * Now visit [TaskTracker](https://vishal-nagarajan.github.io/TaskTracker/).
-## Demo GIF
-![ezgif-2-5c73fdcd1229](https://user-images.githubusercontent.com/56826029/119226384-6b671080-bb26-11eb-8d9f-114e1fe08b7c.gif)
+## Update 1
+- Built a JAX-RS Rest Api which responds to the Angular Application the same way **json-server** does .
+- Java Backend Api repository: [task-tracker-api](https://github.com/vishal-nagarajan/task-tracker-api).
+## Architecture Diagram
+![architecture](https://github.com/vishal-nagarajan/TaskTracker/blob/master/Architecture.png)
+
